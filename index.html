@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio | Rainer Lima</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #0f172a; color: #f8fafc; padding: 40px 20px; line-height: 1.6; }
+    .container { max-width: 900px; margin: 0 auto; }
+    header { margin-bottom: 40px; border-bottom: 1px solid #334155; padding-bottom: 20px; }
+    h1 { color: #38bdf8; font-size: 2.5rem; margin-bottom: 10px; }
+    p.subtitle { color: #94a3b8; font-size: 1.1rem; }
+    h2 { color: #f1f5f9; margin-bottom: 20px; font-size: 1.8rem; }
+    .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+    .card { background-color: #1e293b; border: 1px solid #334155; border-radius: 8px; padding: 20px; transition: transform 0.2s; }
+    .card:hover { transform: translateY(-4px); }
+    .card h3 { color: #38bdf8; margin-bottom: 10px; }
+    .card p { color: #cbd5e1; font-size: 0.95rem; margin-bottom: 15px; }
+    .btn { display: inline-block; padding: 8px 16px; background-color: #0284c7; color: white; text-decoration: none; border-radius: 6px; font-weight: 500; font-size: 0.9rem; }
+    .btn:hover { background-color: #0369a1; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Rainer Lima 👋</h1>
+      <p class="subtitle">Bem-vindo ao meu portfólio! Aqui estão alguns dos meus projetos desenvolvidos.</p>
+    </header>
+
+    <main>
+      <h2>Meus Projetos</h2>
+      <div class="projects-grid">
+        
+        <!-- Projeto 1: Site Vyva -->
+        <div class="card">
+          <h3>Site Vyva</h3>
+          <p>Projeto de site desenvolvido para a Vyva. Clique no botão abaixo para conferir o código-fonte.</p>
+          <a href="https://github.com/rainerlima/site-vyva" target="_blank" class="btn">Ver Repositório</a>
+        </div>
+
+        <!-- Projeto 2: Site Schabilitados -->
+        <div class="card">
+          <h3>Site Schabilitados</h3>
+          <p>Projeto de site desenvolvido para Schabilitados. Clique no botão abaixo para conferir o código-fonte.</p>
+          <a href="https://github.com/rainerlima/site-schabilitados" target="_blank" class="btn">Ver Repositório</a>
+        </div>
+
+      </div>
+    </main>
+  </div>
+</body>
+</html>
